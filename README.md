@@ -1,20 +1,20 @@
 # Solar System Simulation - 3D Project 🪐 
 
-โปรเจกต์ระบบจำลองระบบสุริยะ 3 มิติ พัฒนาขึ้นเพื่อเป็นส่วนหนึ่งของวิชา CS4773 เรขภาพคอมพิวเตอร์ (Computer Graphics)
+This 3D solar system simulation project was developed as part of the CS4773 Computer Graphics course.
 
 ---
 
-## ขอบเขตของโครงงาน 
-พัฒนาแบบจำลองระบบสุริยะจักรวาลในรูปแบบ 3 มิติ โดยมุ่งเน้นการจำลองการเคลื่อนที่ของดาวเคราะห์ต่างๆ รอบดวงอาทิตย์
-* **การจำลองการเคลื่อนที่:**
-  * สร้างการหมุนรอบตัวเอง
-  * การโคจรรอบดวงอาทิตย์ของดาวเคราะห์
-* **ความสมจริง:** การใช้ Texture เพื่อจำลองพื้นผิวของดาวเคราะห์ต่างๆ
-* **การโต้ตอบ:** ผู้ใช้งานสามารถควบคุมมุมมองกล้อง หรือปรับความเร็วของการจำลองได้ 
-* **ระบบแสง:** การจำลองแสงจากดวงอาทิตย์ที่กระทบต่อดาวเคราะห์
+## 🔭 Project Scope
+Developing a 3D model of the solar system, with a primary focus on simulating the movement of various planets around the sun.
+* **Motion Simulation:**
+  * Implementing the rotation of planets on their own axes.
+  * Simulating planetary orbits around the sun.
+* **Realism:** Applying textures to simulate the realistic surfaces of different planets.
+* **Interaction:** Allowing users to control the camera view and adjust the simulation speed.
+* **Lighting System:** Simulating sunlight hitting and illuminating the planets.
 
-##  เครื่องมือที่ใช้ & ทฤษฎี
-### เครื่องมือที่ใช้ (Tools)
+##  Tools & Theories
+### Tools
 * **Game Engine:**
    * Unity (version 2022.3.62f3)
      
@@ -30,14 +30,14 @@
      
      <a href="https://code.visualstudio.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" width="100" height="100">
 
-### ทฤษฎีที่เกี่ยวข้อง (Theory)
-* **Computer Graphics Transformations:** การใช้ Matrix Transformation ในการจัดการตำแหน่ง, การหมุน, และขนาดของวัตถุ 3 มิติใน Scene
-* **Hierarchical Modeling:** การจัดลำดับชั้นของวัตถุ เพื่อให้ดาวเคราะห์โคจรรอบดวงอาทิตย์ไปพร้อมกัน
-* **Lighting & Shading:** การใช้ Point Light เพื่อจำลองแหล่งกำเนิดแสงจากดวงอาทิตย์
-* **Kepler’s Laws of Planetary Motion:**  การประยุกต์ใช้กฎของเคปเลอร์ในการคำนวณความเร็วและระยะห่างของวงโคจร
+### Related Theories
+* **Computer Graphics Transformations:** Using Matrix Transformations to manage the position, rotation, and scale of 3D objects within the scene.
+* **Hierarchical Modeling:** Structuring the object hierarchy to ensure planets and their moons orbit correctly and simultaneously.
+* **Lighting & Shading:** Implementing a Point Light to simulate the sun as the central light source.
+* **Kepler’s Laws of Planetary Motion:**  Applying Kepler's laws to calculate realistic orbital speeds and distances for each planet.
 
 ### UI Design
-* ออกแบบหน้าจอ HUD แสดงชื่อดาวเคราะห์และสามารถกดปุ่มเพื่อไป/กลับหน้านั้น
+* Designing a HUD (Heads-Up Display) to show planet names, featuring interactive buttons that allow users to navigate to and from specific planet views.
 
 ---
 
